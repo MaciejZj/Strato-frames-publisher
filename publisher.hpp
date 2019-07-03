@@ -11,7 +11,6 @@ class Publisher {
 			std::string port_field_group,
 			std::string port_field_name,
 			std::string frame_topic);
-		~Publisher();
 		void send(frame_type& frame);
 		
 	private:
